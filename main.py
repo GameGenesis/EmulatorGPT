@@ -11,6 +11,7 @@ def main():
     clear()
     print("EmulatorGPT\n")
     game = input("Enter the name of the game: ")
+    clear()
 
     messages = [{"role": "system", "content": prompt.format(game=game)}]
     response = ""
