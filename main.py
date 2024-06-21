@@ -14,7 +14,6 @@ def main():
     clear()
 
     messages = [{"role": "system", "content": prompt.format(game=game)}]
-    response = ""
 
     while True:
         stream = client.chat.completions.create(
@@ -24,6 +23,7 @@ def main():
             stream=True,
         )
 
+        response = ""
         for chunk in stream:
             if chunk.choices[0].delta.content is not None:
                 response += chunk.choices[0].delta.content
