@@ -10,6 +10,26 @@ To run:
 python main.py
 ```
 
+## Sample list of games to try out
+
+- Pokemon Red/Blue/Yellow
+- In other waters
+- Fallen London
+- Seedship
+- Sorcery!
+- A Dark Room
+- Rogue
+- Dragon Quest (Dragon Warrior)
+- Final Fantasy
+- NetHack
+- Baldur's Gate
+- Wizardry
+- Ultima
+- Diablo
+- Zork
+- Shadowgate
+- Angry Birds Epic
+
 ## Screenshots
 
 ![image](https://github.com/GameGenesis/EmulatorGPT/assets/52415147/193aefc4-a666-4243-8df1-e3c79754f6eb)
